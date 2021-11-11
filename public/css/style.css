@@ -44,3 +44,28 @@ li img{
     height: 3vw;
 }
 /* fin de barre de navigation  */
+/* section banner  */
+.banner img{
+    width: 100%;
+}
+/* section banner finish  */
+/* section 3  */
+.logo_paragraphes{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 0;
+}
+.logo_paragraphes img{
+    width: 30%;
+    height: 30%;
+    margin-top: 3vh;
+}
+.logo_paragraphes div:last-of-type{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.logo_paragraphes p{
+    margin: 8px 0;
+    font-size: 12px;
+}
