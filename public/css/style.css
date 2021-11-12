@@ -69,3 +69,48 @@ li img{
     margin: 8px 0;
     font-size: 12px;
 }
+/* section 3 fin  */
+/* section 4  */
+.titre_section_4{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.section_4{
+    color: white;
+    background-color: #334d5c;
+    padding: 30px 0;
+}
+.titre_section_4 img{
+    margin-left: 7vw;
+    width: 16%;
+    height: 16%;
+}
+h2{
+    font-size: 35px;
+}
+h3{
+    font-size: 25px;
+}
+.titre_section_4 div:last-of-type{
+    width: 50%;
+}
+.trio_images{
+    display: flex;
+    justify-content: space-around;
+}
+.trio_images div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.trio_images img{
+    width: 80%;
+}
+.trio_images button{
+    width: 100%;
+    color: #334d5c;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 10px;
+}
