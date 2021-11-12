@@ -98,14 +98,21 @@ h3{
 .trio_images{
     display: flex;
     justify-content: space-around;
+    font-size: 12px;
+    text-align: center;
 }
 .trio_images div{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
+    width: 20%;
 }
 .trio_images img{
-    width: 80%;
+    width: 25vh;
+}
+.trio_images p{
+    height: 70px;
 }
 .trio_images button{
     width: 100%;
@@ -113,4 +120,14 @@ h3{
     font-weight: bold;
     font-size: 12px;
     padding: 10px;
+}
+/* section 4 fin  */
+/* section 5  */
+.button_gris{
+    background-color: #1a1a1d;
+    color: white!important;
+    border: none;
+}
+.section_5{
+    padding: 30px 0;
 }
